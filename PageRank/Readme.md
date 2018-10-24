@@ -6,12 +6,12 @@
 In simple terms, Pagerank calculates the influence of the nodes given their links to him. The way in which the influence value or PageRank is defined is by the following formula.
 
 <p align="center">
-  <img width="460" height="300" src="https://qph.fs.quoracdn.net/main-qimg-a9fb139f045563fdf31da58c06666db3">
+  <img src="https://qph.fs.quoracdn.net/main-qimg-a9fb139f045563fdf31da58c06666db3">
 </p>
 
 Where PR is the value of PageRank and C are the connections that have the nodes that point towards the node that you want to calculate.
 
-For the implementation of the algorithm we must first see how to represent the graph. For ease in the way that the algorithm is planned to be implemented, an adjacency matrix will be used in which a zero matrix is ​​created, whose columns and rows represent the nodes of the graph and for each edge that joins two nodes, one adds to the value that is currently in the corresponding location of the matrix.
+For the implementation of the algorithm we must first see how to represent the graph. For ease in the way that the algorithm is planned to be implemented, an adjacency matrix will be used in which a zero matrix is created, whose columns and rows represent the nodes of the graph and for each edge that joins two nodes, one adds to the value that is currently in the corresponding location of the matrix.
 
 ![center](https://i.stack.imgur.com/Ucg3W.png)
 
