@@ -5,8 +5,9 @@
 
 In simple terms, Pagerank calculates the influence of the nodes given their links to him. The way in which the influence value or PageRank is defined is by the following formula.
 
-
-![center](https://qph.fs.quoracdn.net/main-qimg-a9fb139f045563fdf31da58c06666db3)
+<p align="center">
+  <img width="460" height="300" src="https://qph.fs.quoracdn.net/main-qimg-a9fb139f045563fdf31da58c06666db3">
+</p>
 
 Where PR is the value of PageRank and C are the connections that have the nodes that point towards the node that you want to calculate.
 
