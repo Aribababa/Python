@@ -37,7 +37,9 @@ PageRank = PageRank.tolist()
 
 Through the Python Matplotlib library we can visualize a bar graph the influence of each node, for this we take the ten most influential and we see the result.
 
-(Insert useful image here)
+<p align="center">
+  <img src="https://lh4.googleusercontent.com/voiOmjro8Wp86B8AvQsX18eBZo4l2KjhROw59otUpvh669VNFxZlVBG52u_0ZhmQoYvXtEfe4QX0fO5z_cS8P2ygyxuPf_y4vOXLRl56yGprqyz26oBspuRu6Z9tL0wqoXRGscda">
+</p>
 
 By far, the Los Angeles Comic Con node is the most influential node in the entire graph with a PageRank of 0.9071 followed by the Stan Lee Foundation node with a PageRank of 0.2355.
 
