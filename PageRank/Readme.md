@@ -10,8 +10,35 @@ In simple terms, Pagerank calculates the influence of the nodes given their link
 
 Where PR is the value of PageRank and C are the connections that have the nodes that point towards the node that you want to calculate.
 
+For the implementation of the algorithm we must first see how to represent the graph. For ease in the way that the algorithm is planned to be implemented, an adjacency matrix will be used in which a zero matrix is ​​created, whose columns and rows represent the nodes of the graph and for each edge that joins two nodes, one adds to the value that is currently in the corresponding location of the matrix.
+
+![center](https://i.stack.imgur.com/Ucg3W.png)
+
+
+The way in which this algorithm is implemented will be algebraically, that is to say matrix calculations. Because this probem has a certain mathematical proof of how to see this as eigenvalues problem, I am not gonig to explain it here, but yu can consult it from this link:  ![Understanding PageRank as an eigenvalue problem][https://math.stackexchange.com/questions/1935927/understanding-pagerank-as-an-eigenvalue-problem ]
+
 ## Results
 
+To test the algorithm we will take an example graph with enough nodes as it is Stan Lee which has a little more than 2000 nodes. We will calculate the PageRank with a damping factor of 0.85, as indicated by the same algorithm and with 100 iterations.
+
+```python
+grafo = Graph("StanLee_nodes.csv", "StanLee_edges.csv")
+AdjMat_grafo = grafo.GetAdjacencyMatrix()
+PageRank =  grafo.PageRank(AdjMat_grafo, d=0.85 ,iterations=100)
+PageRank = PageRank.tolist()
+```
+
+Through the Python Matplotlib library we can visualize a bar graph the influence of each node, for this we take the ten most influential and we see the result.
+
+(Insert useful image here)
+
+By far, the Los Angeles Comic Con node is the most influential node in the entire graph with a PageRank of 0.9071 followed by the Stan Lee Foundation node with a PageRank of 0.2355.
+
+The other part that we can visualize are the 10 least influential nodes. As in the previous, we can visualize using Matplotlib.
+ 
+(Insert another useful image here)
+
+What we can see is that not only is there a less influential node, but there are many nodes that have almost no influence on the graph. This is because the algorithm ponders the pagerank and for each iteration reduces the value until it converges. In this case, what we can conclude is that not only is there a less influential node, but there are many.
 
 ## References
 
