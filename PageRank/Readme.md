@@ -13,8 +13,9 @@ Where PR is the value of PageRank and C are the connections that have the nodes 
 
 For the implementation of the algorithm we must first see how to represent the graph. For ease in the way that the algorithm is planned to be implemented, an adjacency matrix will be used in which a zero matrix is created, whose columns and rows represent the nodes of the graph and for each edge that joins two nodes, one adds to the value that is currently in the corresponding location of the matrix.
 
-![center](https://i.stack.imgur.com/Ucg3W.png)
-
+<p align="center">
+  <img src="https://i.stack.imgur.com/Ucg3W.png">
+</p>
 
 The way in which this algorithm is implemented will be algebraically, that is to say matrix calculations. Because this probem has a certain mathematical proof of how to see this as eigenvalues problem, I am not gonig to explain it here, but yu can consult it from this link:
 [Understanding PageRank as an eigenvalue problem](https://math.stackexchange.com/questions/1935927/understanding-pagerank-as-an-eigenvalue-problem)
