@@ -5,7 +5,7 @@
 
 In simple terms, Pagerank calculates the influence of the nodes given their links to him. The way in which the influence value or PageRank is defined is by the following formula.
 
-$$\mathit{PR}_i = (1−d) + d \sum_{j\in\{1,\dotsc,n\}} \frac{PR_i}{c_j}$$
+$\mathit{PR}_i = (1−d) + d \sum_{j\in\{1,\dotsc,n\}} \frac{PR_i}{c_j}$
 
 
 Where PR is the value of PageRank and C are the connections that have the nodes that point towards the node that you want to calculate.
