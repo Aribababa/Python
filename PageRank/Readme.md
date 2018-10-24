@@ -18,6 +18,10 @@ For the implementation of the algorithm we must first see how to represent the g
 The way in which this algorithm is implemented will be algebraically, that is to say matrix calculations. Because this probem has a certain mathematical proof of how to see this as eigenvalues problem, I am not gonig to explain it here, but yu can consult it from this link:
 [Understanding PageRank as an eigenvalue problem](https://math.stackexchange.com/questions/1935927/understanding-pagerank-as-an-eigenvalue-problem)
 
+
+
+Because this method is iterative, that is, it must be done a certain number of times to obtain a more reliable result. For the iterative part we can use a Power Iteration method which, starting from an initial value of PageRank, approximates the eigenvalues of the pages. The way this algorithm works is to multiply the matrices and then normalize them. The final result will be an eigenvector representing the PageRank. Depending on the number of iterations is the fidelity of the result
+
 ## Results
 
 To test the algorithm we will take an example graph with enough nodes as it is Stan Lee which has a little more than 2000 nodes. We will calculate the PageRank with a damping factor of 0.85, as indicated by the same algorithm and with 100 iterations.
