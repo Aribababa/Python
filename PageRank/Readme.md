@@ -15,7 +15,7 @@ For the implementation of the algorithm we must first see how to represent the g
 ![center](https://i.stack.imgur.com/Ucg3W.png)
 
 
-The way in which this algorithm is implemented will be algebraically, that is to say matrix calculations. Because this probem has a certain mathematical proof of how to see this as eigenvalues problem, I am not gonig to explain it here, but yu can consult it from this link:  ![Understanding PageRank as an eigenvalue problem][https://math.stackexchange.com/questions/1935927/understanding-pagerank-as-an-eigenvalue-problem ]
+The way in which this algorithm is implemented will be algebraically, that is to say matrix calculations. Because this probem has a certain mathematical proof of how to see this as eigenvalues problem, I am not gonig to explain it here, but yu can consult it from this link:  [Understanding PageRank as an eigenvalue problem][https://math.stackexchange.com/questions/1935927/understanding-pagerank-as-an-eigenvalue-problem ]
 
 ## Results
 
