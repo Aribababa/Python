@@ -1,6 +1,6 @@
 # Bus route detection for blind people.
 
-## objective
+## Objective
 
 Use the knowledge seen in class and within the area of computer vision systems to know how to design and implement this type of systems under controlled conditions and in real environments.
 
