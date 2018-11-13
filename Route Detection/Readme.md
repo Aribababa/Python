@@ -11,3 +11,9 @@ Currently, the Mexican government does very little for people with visual disabi
 ## Solution
 
 The project consists of integrating a system that recognizes urban trucks in the street, that identifies which route is and so, that helps blind people to be more independent when using public transport. This thanks to the development of a tool that uses image processing for route detection.
+
+## System Architecture
+
+<p align="center">
+  <img src="https://lh6.googleusercontent.com/ayl_sSQM_bx7pRhgrB4jFfnnGnHzgjiMhBaAdgvm2wY0dpIKhTyDta1yVpFAtKTHcTmqNRW6pn1SAgnA_ZFDjA7rjpSDla1ZeC_SrW73">
+</p>
