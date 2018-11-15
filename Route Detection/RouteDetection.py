@@ -34,6 +34,7 @@ def filtering(image):
     resized = imutils.resize(image, 200)
     (h, w) = resized.shape[:2]
     gray = cv2.cvtColor(resized, cv2.COLOR_BGR2GRAY)
+    gray = cv2.bilateralFilter(gray, 5, 50, 50)
     ruta = gray[0:h / 2 - 30, (w / 2):w]
 
     #ruta2 = cv2.adaptiveThreshold(ruta, 255, cv2.ADAPTIVE_THRESH_MEAN_C, cv2.THRESH_BINARY, 7, -10)
@@ -64,8 +65,7 @@ def filtering(image):
 
     try:
         finalr = imutils.resize(final, 250)
-        blur = cv2.medianBlur(finalr, 5)
-        return blur
+        return finalr
 
     except ZeroDivisionError as error:
         good_image = 0
