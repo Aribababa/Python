@@ -41,11 +41,8 @@ When a bus is in the frames for a certain number of frames, the Script will crop
 At the end, An image will be created in the same folder as the .py file with the route processed and the Script will dictate the route.
 
 ## Video
-
-<p>
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
-    <video src="https://www.youtube.com/watch?v=mo6xxib4ots&feature=youtu.be" width="320" height="200" controls preload></video>
-</p>
+To see the project running, pleae go to the link below.
+[Route Detection Video](https://www.youtube.com/watch?v=mo6xxib4ots&feature=youtu.be)
 
 ## Future work.
 
