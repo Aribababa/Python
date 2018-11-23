@@ -43,6 +43,7 @@ At the end, An image will be created in the same folder as the .py file with the
 ## Video
 
 <p>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
     <video src="https://www.youtube.com/watch?v=mo6xxib4ots&feature=youtu.be" width="320" height="200" controls preload></video>
 </p>
 
