@@ -39,7 +39,9 @@ A window will open in your desktop with the frames capturer by your camera.
 </p>
 When a bus is in the frames for a certain number of frames, the Script will crop the object and then it will porgress to process the Data.
 At the end, An image will be created in the same folder as the .py file with the route processed and the Script will dictate the route.
+## Video
 
+<video src="https://www.youtube.com/watch?v=mo6xxib4ots&feature=youtu.be" width="320" height="200" controls preload></video>
 ## Future work.
 
  -   The main problem here is the Cascade file. When the classifier has being made, we do not consider some special cases for the buses, more specifically the *SiTren* Route in Guadalajara. Training a new classifier with the other buses and give them more states to the algorithm will increase the accuracy and the precision,
